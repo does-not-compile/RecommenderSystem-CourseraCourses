@@ -1,6 +1,6 @@
 # Recommender System for Coursera Courses
 
-Recommender System for Coursera Courses as part of the IBM Machine Learning Professional Certificate. In this project, several supervised and unsupervised machine learning algorithms like KNN, Logistic Regression, SVM, RandomForest, KMeans are employed to get new course recommendations for users.
+Recommender System for Coursera Courses as part of the IBM Machine Learning Professional Certificate. In this project, several supervised and unsupervised machine learning algorithms (e.g. KNN, Logistic Regression, SVM, RandomForest, KMeans), and a Neural Network (tensorflow/keras) are employed to get new course recommendations for users based on Course Similarity or User Profile.
 
 The streamlit library is used as frontend.
 
