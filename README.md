@@ -5,7 +5,17 @@ Recommender System for Coursera Courses as part of the IBM Machine Learning Prof
 The streamlit library is used as frontend.
 
 ## How to use
-Simply clone this repo, install the requirements and run
+Simply clone this repo, setup a virtual environment and install the requirements:
+
+```bash
+pyenv local 3.9.8
+python -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+Then, just start the streamlit app:
 
 ```bash
 streamlit run PATH_TO_APP/recommender_app.py
